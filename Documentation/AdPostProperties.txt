@@ -1,0 +1,51 @@
+Master Tables
+
+States
+	StateId
+	Name
+Locations In India	
+	LocationId
+	LocationName
+	StateId
+
+Category
+	CategoryId
+	CategoryName
+	Description
+	IsActive
+
+Plans
+	Free
+	Silver
+
+Users
+	userId
+	name
+	emailaddress
+	PlanId
+	Location
+
+Ads
+	PostId
+	CategoryId
+	Title
+	Description
+	Price
+	SellerName (can be different from user name)
+	SellerContact(can be different from user name)
+
+AdLocation
+	AdId
+	StateId
+	LocationId
+	City
+	Address1
+	Address2
+	PinCode
+	GeoLocation
+
+UserAds
+	AdId
+	UserId
+
+	
